@@ -1,5 +1,5 @@
 # 問題
-野菜と果物を一つづつ箱詰めされたパックの売上履歴データを返す関数getQuestionnaireDataListがあります。
+野菜と果物を一つづつ箱詰めされたパックの売上履歴データを返す関数getProductDataListがあります。
 このデータを使い、売上履歴データをテーブルで一覧表示するツールをモダンフロントエンドフレームワーク(Vue.js,Angular,React等)を使い、実装してください。
 
 
@@ -26,7 +26,7 @@
 
 ## 条件２
 
-QuestionnaireDataの配列の長さnは、n<10^2です。
+ProductDataの配列の長さnは、n<10^2です。
 
 
 
@@ -37,14 +37,14 @@ QuestionnaireDataの配列の長さnは、n<10^2です。
 
 ## データ構造
 
-QuestionnaireDataの配列を返すgetQuestionnaireDataListという関数があります。
-QuestionnaireDataのInterface(Typescript)は以下のとおりです。
+ProductDataの配列を返すgetProductDataListという関数があります。
+ProductDataのInterface(Typescript)は以下のとおりです。
 
 ```
 
-function getQuestionnaireDataList():Array<QuestionnaireData>;
+function getProductDataList():Array<QuestionnaireData>;
 
-interface QuestionnaireData{
+interface ProductData{
 	Id:number;
 	Fruits:"Apple"|"Orange"|"Peach";
 	Vegetables:"Cucumber"|"Chili"|"BeanSprouts";
@@ -57,7 +57,7 @@ interface QuestionnaireData{
 
 ```
 
-const QuestionnaireDataList = getQuestionnaireDataList();
+const ProductDataList = getProductDataList();
 
 /**
 
@@ -95,7 +95,7 @@ const QuestionnaireDataList = getQuestionnaireDataList();
 
 ## 以下のコードはご自由にお使いください
 ```
-function getQuestionnaireDataList():Array<QuestionnaireData>{
+function getProductDataList():Array<QuestionnaireData>{
 	const mapper = 	{
 		Fruits:["Apple","Orange","Peach"];
 		Vegetables:["Cucumber","Chili","BeanSprouts"];
@@ -114,7 +114,7 @@ function getQuestionnaireDataList():Array<QuestionnaireData>{
 	return res;
 };
 
-interface QuestionnaireData{
+interface ProductData{
 	Id:number;
 	Fruits:"Apple"|"Orange"|"Peach";
 	Vegetables:"Cucumber"|"Chili"|"BeanSprouts";
