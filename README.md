@@ -44,7 +44,7 @@ const QuestionnaireDataList = getQuestionnaireDataList();
 	{
 		Id:1,
 		Fruits:"Apple",
-		Vegetables:"chili",
+		Vegetables:"Chili",
 		Origin:"Tokyo"
 	},
 	{
@@ -52,6 +52,12 @@ const QuestionnaireDataList = getQuestionnaireDataList();
 		Fruits:"Orange",
 		Vegetables:"Cucumber",
 		Origin:"Tokyo"
+	},
+	{
+		Id:3,
+		Fruits:"Peach",
+		Vegetables:"Cucumber",
+		Origin:"Saitama"
 	}
 ]
 
