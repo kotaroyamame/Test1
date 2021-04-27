@@ -87,7 +87,7 @@ const QuestionnaireDataList = getQuestionnaireDataList();
 - 仕様変更に強いこと（例えば、フルーツの種類や絞り込み条件が増えた時、コードの変更箇所が少なければポイントアップ）
 
 
-
+## 以下のコードはご自由にお使いください
 ```
 function getQuestionnaireDataList():Array<QuestionnaireData>{
 	const mapper = 	{
