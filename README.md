@@ -1,3 +1,4 @@
+# 問題
 野菜と果物を一つづつ箱詰めされた商品Aの売上履歴データを返す関数getQuestionnaireDataListがあります。
 このデータを使い、売上履歴データをテーブルで一覧表示するツールをモダンフロントエンドフレームワーク(Vue.js,Angular,React等)を使い、実装してください。
 
@@ -10,6 +11,7 @@
 
 ## UI例
 
+<img width="964" alt="image1" src="https://user-images.githubusercontent.com/13118113/116181646-f0dce800-a755-11eb-9d9b-f2987591694c.png">
 
 
 ## データ構造
