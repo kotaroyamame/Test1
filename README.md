@@ -42,7 +42,7 @@ ProductDataのInterface(Typescript)は以下のとおりです。
 
 ```
 
-function getProductDataList():Array<QuestionnaireData>;
+function getProductDataList():Array<ProductData>;
 
 interface ProductData{
 	Id:number;
@@ -95,13 +95,13 @@ const ProductDataList = getProductDataList();
 
 ## 以下のコードはご自由にお使いください
 ```
-function getProductDataList():Array<QuestionnaireData>{
+function getProductDataList():Array<ProductData>{
 	const mapper = 	{
 		Fruits:["Apple","Orange","Peach"];
 		Vegetables:["Cucumber","Chili","BeanSprouts"];
 		Origin:["Tokyo","Saitama","Chiba"]
 	};
-	const res:Array<QuestionnaireData> = [];
+	const res:Array<ProductData> = [];
 	const n = Math.floor(Math.random()*100);
 	for(let i=0;i<n;i++){
 		res.push({
