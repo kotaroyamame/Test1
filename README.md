@@ -2,10 +2,11 @@
 このデータを使い、売上履歴データをテーブルで一覧表示するツールをモダンフロントエンドフレームワーク(Vue.js,Angular,React等)を使い、実装してください。
 
 - 条件１
+
 以下のようなUIの３つの条件でAND条件で絞り込みができます。
-赤いもの（fruits:Apple, Vegetables:Chili）
-東京のきゅうり(Vegetables:Cucumber && Origin:Tokyo)
-埼玉のりんご(fruits:Apple && Origin:Saitama)
+- 赤いもの（fruits:Apple, Vegetables:Chili）
+- 東京のきゅうり(Vegetables:Cucumber && Origin:Tokyo)
+- 埼玉のりんご(fruits:Apple && Origin:Saitama)
 
 ## UI例
 
