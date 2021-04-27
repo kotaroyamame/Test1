@@ -40,9 +40,9 @@ function getQuestionnaireDataList():Array<QuestionnaireData>;
 
 interface QuestionnaireData{
 	Id:number;
-	Fruits:Set<"Apple"|"Orange"|"Peach">;
-	Vegetables:Set<"Cucumber"|"Chili"|"BeanSprouts">;
-	Origin:Set<"Tokyo"|"Saitama"|"Chiba">;
+	Fruits:"Apple"|"Orange"|"Peach";
+	Vegetables:"Cucumber"|"Chili"|"BeanSprouts";
+	Origin:"Tokyo"|"Saitama"|"Chiba";
 }
 
 ```
@@ -110,8 +110,8 @@ function getQuestionnaireDataList():Array<QuestionnaireData>{
 
 interface QuestionnaireData{
 	Id:number;
-	Fruits:Set<"Apple"|"Orange"|"Peach">;
-	Vegetables:Set<"Cucumber"|"Chili"|"BeanSprouts">;
-	Origin:Set<"Tokyo"|"Saitama"|"Chiba">;
+	Fruits:"Apple"|"Orange"|"Peach";
+	Vegetables:"Cucumber"|"Chili"|"BeanSprouts";
+	Origin:"Tokyo"|"Saitama"|"Chiba";
 }
 ```
