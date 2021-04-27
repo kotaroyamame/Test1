@@ -96,7 +96,7 @@ function getQuestionnaireDataList():Array<QuestionnaireData>{
 		Origin:["Tokyo","Saitama","Chiba"]
 	};
 	const res:Array<QuestionnaireData> = [];
-	const n = Math.random()*100;
+	const n = Math.floor(Math.random()*100);
 	for(let i=0;i<n;i++){
 		res.push({
 			id:i,
