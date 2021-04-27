@@ -5,10 +5,16 @@
 
 ### 条件１
 
-以下のようなUIの３つの条件でAND条件で絞り込みができます。
+以下のようなUIの任意のの条件でAND条件で絞り込みができます。
+### 条件グループ1
 - 赤いもの（fruits:Apple, Vegetables:Chili）
 - 東京のきゅうり(Vegetables:Cucumber && Origin:Tokyo)
 - 埼玉のりんご(fruits:Apple && Origin:Saitama)
+
+### 産地
+- 東京
+- 千葉
+- 埼玉
 
 例として、赤いものと東京のきゅうりのチェックが両方ついている場合は、
 
@@ -26,7 +32,8 @@ QuestionnaireDataの配列の長さnは、n<10^2です。
 
 ## UI例
 
-<img width="964" alt="image1" src="https://user-images.githubusercontent.com/13118113/116181646-f0dce800-a755-11eb-9d9b-f2987591694c.png">
+<img width="947" alt="image2" src="https://user-images.githubusercontent.com/13118113/116193532-7b2f4700-a76a-11eb-90bd-4d9a57a0e7a7.png">
+
 
 
 ## データ構造
