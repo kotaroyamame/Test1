@@ -9,6 +9,11 @@
 - 東京のきゅうり(Vegetables:Cucumber && Origin:Tokyo)
 - 埼玉のりんご(fruits:Apple && Origin:Saitama)
 
+例として、赤いものと東京のきゅうりのチェックが両方ついている場合は、
+赤いもの∩東京のきゅうり
+は∅ですので、
+表示されるデータは０件です。
+
 ### 条件２
 
 QuestionnaireDataの配列の長さnは、n<10^2です。
