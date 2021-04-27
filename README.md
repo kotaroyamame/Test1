@@ -32,8 +32,7 @@ QuestionnaireDataの配列の長さnは、n<10^2です。
 
 ## UI例
 
-<img width="947" alt="image2" src="https://user-images.githubusercontent.com/13118113/116193532-7b2f4700-a76a-11eb-90bd-4d9a57a0e7a7.png">
-
+<img width="953" alt="image1" src="https://user-images.githubusercontent.com/13118113/116193771-d2cdb280-a76a-11eb-8b6d-a67b31fea0c1.png">
 
 
 ## データ構造
