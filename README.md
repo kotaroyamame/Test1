@@ -5,7 +5,7 @@
 
 ## 条件１
 
-以下のようなUIの任意の条件でAND条件で絞り込みができます。
+以下のようなUIの任意の条件でチェックボックスがあり、それぞれのチェックボックスの項目はAND条件で絞り込みができます。
 ### 条件グループ1
 - 赤いもの（fruits:Apple OR Vegetables:Chili）
 - 東京のきゅうり(Vegetables:Cucumber AND Origin:Tokyo)
