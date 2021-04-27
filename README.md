@@ -86,3 +86,31 @@ const QuestionnaireDataList = getQuestionnaireDataList();
 - 無駄がないこと
 - 仕様変更に強いこと（例えば、フルーツの種類や絞り込み条件が増えた時、コードの変更箇所が少なければポイントアップ）
 
+
+
+```
+function getQuestionnaireDataList():Array<QuestionnaireData>{
+	const mapper = 	{
+		Fruits:["Apple","Orange","Peach"];
+		Vegetables:["Cucumber","Chili","BeanSprouts"];
+		Origin:["Tokyo","Saitama","Chiba"]
+	};
+	const res:Array<QuestionnaireData> = [];
+	for(let i=0;i<Math.random()*100;i++){
+		res.push({
+			id:i,
+			Fruits:mapper.Fruits[Math.floor(Math.random()*mapper.Fruits.length)],
+			Vagetables:mapper.Vegetables[Math.floor(Math.random()*mapper.Vegetables.length)],
+			Origin:mapper.Origin[Math.floor(Math.random()*mapper.Origin.length)],
+		});
+	}
+	return res;
+};
+
+interface QuestionnaireData{
+	Id:number;
+	Fruits:Set<"Apple"|"Orange"|"Peach">;
+	Vegetables:Set<"Cucumber"|"Chili"|"BeanSprouts">;
+	Origin:Set<"Tokyo"|"Saitama"|"Chiba">;
+}
+```
