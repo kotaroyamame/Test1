@@ -7,9 +7,9 @@
 
 以下のようなUIの任意の条件でAND条件で絞り込みができます。
 ### 条件グループ1
-- 赤いもの（fruits:Apple, Vegetables:Chili）
-- 東京のきゅうり(Vegetables:Cucumber && Origin:Tokyo)
-- 埼玉のりんご(fruits:Apple && Origin:Saitama)
+- 赤いもの（fruits:Apple OR Vegetables:Chili）
+- 東京のきゅうり(Vegetables:Cucumber AND Origin:Tokyo)
+- 埼玉のりんご(fruits:Apple AND Origin:Saitama)
 
 ### 産地
 - 東京
