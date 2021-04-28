@@ -42,7 +42,7 @@ ProductDataの配列の長さnは、n<10^2です。
 ProductDataの配列を返すgetProductDataListという関数があります。
 ProductDataのInterface(Typescript)は以下のとおりです。
 
-```
+```typescript
 
 function getProductDataList():Array<ProductData>;
 
@@ -57,7 +57,7 @@ interface ProductData{
 
 ## 例
 
-```
+```typescript
 
 const ProductDataList = getProductDataList();
 
@@ -96,7 +96,7 @@ const ProductDataList = getProductDataList();
 
 
 ## 以下のコードはご自由にお使いください
-```
+```typescript
 function getProductDataList():Array<ProductData>{
 	const mapper = 	{
 		Fruits:["Apple","Orange","Peach"];
