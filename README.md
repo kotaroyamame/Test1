@@ -96,6 +96,7 @@ const ProductDataList = getProductDataList();
 
 
 ## 以下のコードはご自由にお使いください
+https://gist.github.com/kotaroyamame/6f226af1e5c026863cad77fe1f8c5778
 ```typescript
 function getProductDataList():Array<ProductData>{
 	const mapper = 	{
