@@ -100,9 +100,9 @@ https://gist.github.com/kotaroyamame/6f226af1e5c026863cad77fe1f8c5778
 ```typescript
 function getProductDataList():Array<ProductData>{
 	const mapper = 	{
-		Fruits:["Apple","Orange","Peach"];
-		Vegetables:["Cucumber","Chili","BeanSprouts"];
-		Origin:["Tokyo","Saitama","Chiba"]
+		Fruits:["Apple","Orange","Peach"],
+		Vegetables:["Cucumber","Chili","BeanSprouts"],
+		Origin:["Tokyo","Saitama","Chiba"],
 	};
 	const res:Array<ProductData> = [];
 	const n = Math.floor(Math.random()*100);
